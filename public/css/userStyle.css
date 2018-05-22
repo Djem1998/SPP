@@ -1,0 +1,50 @@
+.myContent {
+    display: flex;
+    border: 3px solid black;
+    width: 100%;
+    min-height: 85vh;
+    height: auto;
+}
+
+.myLeftColumn {
+    display: flex;
+    width: 15%;
+    min-height: 600px;
+    height: auto;
+    background-color: #12b2ff;
+    /*align-items: center;*/
+    /*align-content: center;*/
+    /*justify-content: center;*/
+    flex-direction: column;
+}
+
+/*.myRightColumn {*/
+    /*display: flex;*/
+    /*width: 85%;*/
+    /*min-height: 600px;*/
+    /*height: auto;*/
+    /*!*background-color: #d9d6ff;*!*/
+    /*!*justify-content: center;*!*/
+    /*!*align-items: center;*!*/
+    /*!*align-content: center;*!*/
+/*}*/
+
+.leftElem {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    font-size: 25px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.leftElem:hover {
+    border-bottom: 2px solid black;
+    background-color: #d9d6ff;
+}
+
+.result {
+    display: none;
+}
